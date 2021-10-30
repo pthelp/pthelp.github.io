@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700);
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #02006e;
+	font-family: ubuntu;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background: #e7e7ff;
+}
+
+header img {
+  width: 50px;
+  background: white;
+  border-radius: 5px;
+  margin: 0 20px 0 40px;
+}
+
+article {
+  background: white;
+  border: 3px solid #a0a0a0;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+main .test {
+  background: white;
+  border: 4px solid #7000FF;
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+header .backbutton {
+	color: darkcyan;
+	background-color: black;
+	border: 3px solid darkslategrey;
+	border-radius: 5px;
+	align-self: flex-end;
+}
+
+main .main {
+  background: white;
+  border: 3px solid #a0a0a0;
+  width: 55%;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+hr, article .date {
+  color: #a0a0a0;
+}
+
+article .ping {
+  color: black;
+	background-color: yellow;
+}
+
+footer .center {
+	justify-content: center;
+}
